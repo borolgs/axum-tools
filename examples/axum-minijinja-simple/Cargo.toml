@@ -1,0 +1,10 @@
+[package]
+name = "axum-minijinja-simple"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+axum = { version = "0.7.5", features = ['macros'] }
+axum-minijinja = { path = "../../axum-minijinja" }
+

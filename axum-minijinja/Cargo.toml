@@ -1,0 +1,14 @@
+[package]
+name = "axum-minijinja"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+axum = { version = "0.7.5", features = ['macros'] }
+serde = { version = "1.0.197", features = ["derive"] }
+minijinja = { version ="2.0.1", features = [
+  "loader"
+
+] }
+minijinja-autoreload = "2.0.1"
